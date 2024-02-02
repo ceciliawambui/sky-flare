@@ -1,0 +1,20 @@
+body{
+    background: url('bg1.jpeg')rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media(max-width:991px){
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+.sky{
+    margin-top: -60px;
+    margin-left: -30px;
+    height: 230px;
+    width: 250px;
+
+}
