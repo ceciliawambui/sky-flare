@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row } from 'react-bootstrap'
+import { Button, Container, Row } from 'react-bootstrap'
 import { Col } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Form from 'react-bootstrap/Form';
@@ -17,7 +17,7 @@ function Contact() {
                 </Col>
             </Row>
             <Row className='sec_sp'>
-                <Col lg='6' className="mb-5">
+                <Col lg='5' className="mb-5">
                     <h3 className='color_sec py-4'>Get in touch</h3>
                     <address>
                         <strong>Email: email@gmail.com</strong>
@@ -27,11 +27,11 @@ function Contact() {
                             <strong>Phone: +254712345678</strong>
                         </p>
                     </address>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    <p>We are a dynamic and innovative company specializing in providing comprehensive IT solutions and a wide range of office supplies.
                     </p>
 
                 </Col>
-                <Col lg='6' className='d-flex align-items-center'>
+                <Col lg='7' className='d-flex align-items-center'>
                     {/* <form className='contact__form w-100'>
                         <Row>
                             <Col lg="6" className='form-group'>
@@ -46,11 +46,12 @@ function Contact() {
                         <textarea className='form-control rounded-0' name="message" id="message" placeholder="Message" cols="30" rows="5"></textarea>
 
                     </form> */}
-                    <Form className='justify-content-end'>
+                    <Form>
+                        <Row>
                         <Col>
                         <Form.Group className="mb-8" controlId="exampleForm.ControlInput1">
-                            <Form.Label>Email address</Form.Label>
-                            <Form.Control type="email" placeholder="name@example.com" />
+                            <Form.Label>Name</Form.Label>
+                            <Form.Control type="text" placeholder="Name" />
                         </Form.Group>
                         </Col>
                         <Col>
@@ -60,11 +61,24 @@ function Contact() {
                         </Form.Group>
                         </Col>
 
-                      
-                        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                            <Form.Label>Example textarea</Form.Label>
+                        </Row>
+                       <Row>
+                       <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                            <Form.Label>Message</Form.Label>
                             <Form.Control as="textarea" rows={3} />
                         </Form.Group>
+                       </Row>
+                       <Row>
+                        <Col lg="12" className='form-group'>
+                            <Button className='btn ac_btn' variant="light" type="submit">
+                                Send
+                            </Button>
+                        </Col>
+                       </Row>
+                     
+
+                      
+                    
                     </Form>
                 </Col>
             </Row>
