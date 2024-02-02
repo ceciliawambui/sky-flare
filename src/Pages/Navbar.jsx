@@ -24,26 +24,27 @@ function Navbar() {
 
                     {/* sidebar header */}
                     <div className='offcanvas-header text-white border-bottom'>
-                        <h5 className='offcanvas-title' id='offcanvasNavbarLabel'>Sky Flare</h5>
+                    <a className='navbar-brand fs-4' href='#home'><img src='skyflare.png' alt='SkyFlare' className='sky'></img></a>
                         <button className='btn-close btn-close-white shadow-none' onClick={toggleSidebar} aria-label="Close"></button>
                     </div>
 
                     {/* sidebar body */}
                     <div className='offcanvas-body d-flex flex-column flex-lg-row p-4'>
                         {/* navbar links */}
-                        <ul className='navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3'>
+                        <ul className='navbar-nav justify-content-end align-items-center fs-5 flex-grow-1 pe-3'>
                             <li className='nav-item mx-2'>
-                                <a className='nav-link active' aria-current="page" href="#home">Home</a>
+                                <a className='nav-link active' aria-current="page" href="/">Home</a>
                             </li>
                             <li className='nav-item mx-2'>
-                                <a className='nav-link active' aria-current="page" href="#about">About</a>
+                                <a className='nav-link active' aria-current="page" href="/about">About</a>
                             </li>
                             <li className='nav-item mx-2'>
-                                <a className='nav-link active' aria-current="page" href="#services">Services</a>
+                                <a className='nav-link active' aria-current="page" href="/services">Services</a>
                             </li>
                             <li className='nav-item mx-2'>
-                                <a className='nav-link active' aria-current="page" href="#contact">Contact</a>
+                                <a className='nav-link active' aria-current="page" href="/contact">Contact</a>
                             </li>
+                           
 
                         </ul>
 
