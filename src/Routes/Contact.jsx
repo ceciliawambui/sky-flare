@@ -9,13 +9,14 @@ import Form from 'react-bootstrap/Form';
 function Contact() {
     return (
         <Container>
-            <Row className='mb-5 mt-3'>
+            <Row className='mb-4 mt-3'>
                 <Col lg-8>
-                    <h1 className='display-4 mb-4'>
-                        Contact Me
+                    <h1 className='display-4 mb-3'>
+                        Contact Us
                     </h1>
                 </Col>
             </Row>
+            <br />
             <Row className='sec_sp'>
                 <Col lg='5' className="mb-5">
                     <h3 className='color_sec py-4'>Get in touch</h3>
@@ -31,7 +32,7 @@ function Contact() {
                     </p>
 
                 </Col>
-                <Col lg='7' className='d-flex align-items-center'>
+                <Col lg='7'>
                     {/* <form className='contact__form w-100'>
                         <Row>
                             <Col lg="6" className='form-group'>
@@ -49,7 +50,7 @@ function Contact() {
                     <Form>
                         <Row>
                         <Col>
-                        <Form.Group className="mb-8" controlId="exampleForm.ControlInput1">
+                        <Form.Group className="mb-6" controlId="exampleForm.ControlInput1">
                             <Form.Label>Name</Form.Label>
                             <Form.Control type="text" placeholder="Name" />
                         </Form.Group>
@@ -65,7 +66,7 @@ function Contact() {
                        <Row>
                        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                             <Form.Label>Message</Form.Label>
-                            <Form.Control as="textarea" rows={3} />
+                            <Form.Control as="textarea" rows={5} />
                         </Form.Group>
                        </Row>
                        <Row>
