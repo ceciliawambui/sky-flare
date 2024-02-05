@@ -37,3 +37,13 @@
     transform: rotate(360deg);
   }
 }
+footer {
+  position: fixed;
+  background-color: cyan;
+  bottom: 0;
+  color: black;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  text-align: center;
+}
