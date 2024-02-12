@@ -10,7 +10,7 @@ function Contact() {
     return (
         <Container>
             <Row className='mb-4 mt-3'>
-                <Col lg-8>
+                <Col lg='8'>
                     <h1 className='display-4 mb-3'>
                         Contact Us
                     </h1>

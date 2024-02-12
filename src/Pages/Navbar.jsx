@@ -35,14 +35,12 @@ function Navbar() {
                             <li className='nav-item mx-2'>
                                 <a className='nav-link active' aria-current="page" href="/">Home</a>
                             </li>
-                            <li className='nav-item mx-2'>
-                                <a className='nav-link active' aria-current="page" href="/about">About</a>
-                            </li>
+                        
                             <li className='nav-item mx-2'>
                                 <a className='nav-link active' aria-current="page" href="/services">Services</a>
                             </li>
                             <li className='nav-item mx-2'>
-                                <a className='nav-link active' aria-current="page" href="/contact">Contact</a>
+                                <a className='nav-link active' aria-current="page" href="/contact">Contact Us</a>
                             </li>
                            
 

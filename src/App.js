@@ -2,7 +2,6 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Pages/Navbar';
 import Home from './Routes/Home';
-import About from './Routes/About';
 import Contact from './Routes/Contact';
 import Services from './Routes/Services';
 import { Route, Routes } from 'react-router-dom';
@@ -16,7 +15,6 @@ function App() {
      <Navbar/>
      <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
      </Routes>
