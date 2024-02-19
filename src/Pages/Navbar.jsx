@@ -2,6 +2,7 @@ import React from 'react';
 import './Navbar.css';
 import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import skyflare from './skyflare.png'
 
 
 
@@ -14,7 +15,7 @@ function Navbar() {
         <nav className='navbar navbar-expand-lg navbar-dark bg-transparent'>
             <div className='container'>
                 {/* logo */}
-                <a className='navbar-brand fs-4' href='#home'><img src='skyflare.png' alt='SkyFlare' className='sky'></img></a>
+                <a className='navbar-brand fs-4' href='#home'><img src={skyflare} alt='SkyFlare' className='sky'></img></a>
                 {/* togglebutton */}
                 <button className='navbar-toggler shadow-none border-0' type='button' onClick={toggleSidebar}>
                     <span className='navbar-toggler-icon'></span>
@@ -24,7 +25,7 @@ function Navbar() {
 
                     {/* sidebar header */}
                     <div className='offcanvas-header text-white border-bottom'>
-                    <a className='navbar-brand fs-4' href='#home'><img src='skyflare.png' alt='SkyFlare' className='sky'></img></a>
+                    <a className='navbar-brand fs-4' href='#home'><img src={skyflare} alt='SkyFlare' className='sky'></img></a>
                         <button className='btn-close btn-close-white shadow-none' onClick={toggleSidebar} aria-label="Close"></button>
                     </div>
 

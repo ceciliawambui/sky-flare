@@ -3,3 +3,21 @@ body{
     font-family: 'Open Sans', sans-serif;
     
 }
+#intro{
+    padding: 10px;
+
+}
+#b1{
+    margin-right: 40px;
+}
+span{
+    color: pink;
+}
+#background2{
+    background: url('tech2.jpeg')rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
