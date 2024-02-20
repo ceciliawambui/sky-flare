@@ -5,6 +5,8 @@ import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import image1 from './tec1.png';
+import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
 
 
 
@@ -43,25 +45,97 @@ function Home() {
               </Col>
               <Col lg='3'></Col>
             </Row>
-            
+
           </div>
           <div>
-            <h1>
-              Cards
-            </h1>
-            <p>card 1</p>
-            <p>ghjfghjg</p>
-            <p>gffdfjdhrtgfd</p>
-            <p>gfdthgfdg</p>
-            <p>fghdtrffy</p>
-            <p>fhgdddg</p>
+            <br />
+            <Row>
+              <Col lg='3'>
+                <Card>
+                  <Card.Img variant="top" src="holder.js/100px160" />
+                  <Card.Body>
+                    <Card.Title>Card title</Card.Title>
+                    <Card.Text>
+                      This is a longer card with supporting text below as a natural
+                      lead-in to additional content. This content is a little bit
+                      longer.
+                      This is a longer card with supporting text below as a natural
+                      lead-in to additional content. This content is a little bit
+                      longer.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col lg='3'>
+                <Card>
+                  <Card.Img variant="top" src="holder.js/100px160" />
+                  <Card.Body>
+                    <Card.Title>Card title</Card.Title>
+                    <Card.Text>
+                      This is a longer card with supporting text below as a natural
+                      lead-in to additional content. This content is a little bit
+                      longer.
+                      This is a longer card with supporting text below as a natural
+                      lead-in to additional content. This content is a little bit
+                      longer.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col lg='3'>
+                <Card>
+                  <Card.Img variant="top" src="holder.js/100px160" />
+                  <Card.Body>
+                    <Card.Title>Card title</Card.Title>
+                    <Card.Text>
+                      This is a longer card with supporting text below as a natural
+                      lead-in to additional content. This content is a little bit
+                      longer.
+                      This is a longer card with supporting text below as a natural
+                      lead-in to additional content. This content is a little bit
+                      longer.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col lg='3'>
+                <Card>
+                  <Card.Img variant="top" src="holder.js/100px160" />
+                  <Card.Body>
+                    <Card.Title>Card title</Card.Title>
+                    <Card.Text>
+                      This is a longer card with supporting text below as a natural
+                      lead-in to additional content. This content is a little bit
+                      longer.
+                      This is a longer card with supporting text below as a natural
+                      lead-in to additional content. This content is a little bit
+                      longer.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+
+            </Row>
           </div>
+          <br />
+          <br />
+          <div>
+            <h1 className="center">Our Clients</h1>
+            <p>section 1</p>
+            <p>section 1</p>
+            <p>section 1</p>
+            <p>section 1</p>
+            <p>section 1</p>
+            <p>section 1</p>
+
+          </div>
+
 
         </div>
 
 
       </div>
-      
+
 
     </div >
   )
