@@ -12,7 +12,7 @@ import Footer from './Routes/Footer';
 
 function App() {
   return (
-    <div className="vh-100 overflow-hidden">
+    <div>
      <Navbar/>
      <Routes>
           <Route path="/" element={<Home />} />
