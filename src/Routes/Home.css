@@ -1,6 +1,9 @@
 body{
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    overflow: scroll;
+
     
 }
 #intro{
@@ -13,11 +16,14 @@ body{
 span{
     color: pink;
 }
-#background2{
-    background: url('tech2.jpeg')rgba(0, 0, 0, 0.3);
-    background-blend-mode: multiply;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 
+#title{
+    font-family: "Namdhinggo", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

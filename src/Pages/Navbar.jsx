@@ -43,6 +43,9 @@ function Navbar() {
                             <li className='nav-item mx-2'>
                                 <a className='nav-link active' aria-current="page" href="/contact">Contact Us</a>
                             </li>
+                            <li className='nav-item mx-2'>
+                                <a className='nav-link active' aria-current="page" href="/blog">Blog</a>
+                            </li>
                            
 
                         </ul>
