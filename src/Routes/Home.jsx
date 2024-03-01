@@ -5,6 +5,14 @@ import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import image1 from './tec1.png';
+import image2 from './im1.jpeg';
+// import image3 from './im2.jpeg';
+import image4 from './im3.jpeg';
+import image5 from './im4.jpeg';
+import image6 from './im5.jpeg';
+
+
+
 import Card from 'react-bootstrap/Card';
 // import CardGroup from 'react-bootstrap/CardGroup';
 // import '@fortawesome/fontawesome-free/css/all.css';
@@ -12,6 +20,7 @@ import Card from 'react-bootstrap/Card';
 // import { faCoffee} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPeopleRoof, faComputer, faTruck, faCloudArrowUp } from '@fortawesome/free-solid-svg-icons';
+import Marquee from "react-fast-marquee";
 
 
 
@@ -59,14 +68,8 @@ function Home() {
             <Row>
               <Col lg='3'>
                 <Card>
-                  {/* <i class="bi bi-pc-display-horizontal"></i> */}
-                  {/* <FontAwesomeIcon icon={faCoffee} /> */}
 
-                  {/* <FontAwesomeIcon icon={faComputer} /> */}
-                  {/* <Card.Img variant="top" src="holder.js/100px160"/>
-                  <i class="bi bi-people"></i> */}
                   <FontAwesomeIcon icon={faPeopleRoof} size="2x" />
-                  {/* <button type="submit" class="btn btn-primary"><span class="bi-search"></span> Search</button> */}
                   <Card.Body>
                     <Card.Title><strong>Continuous Support</strong></Card.Title>
                     <Card.Text>
@@ -105,17 +108,35 @@ function Home() {
               </Col>
 
             </Row>
+
           </div>
           <br />
           <br />
           <div>
-            <h1 className="center">Our Clients</h1>
-            <p>section 1</p>
-            <p>section 1</p>
-            <p>section 1</p>
-            <p>section 1</p>
-            <p>section 1</p>
-            <p>section 1</p>
+            <h1 className="center">Clients</h1>
+            <Row>
+              <Marquee>
+               <img src={image2}  alt="" />
+               <br />
+          
+               <img src={image4}  alt="" />
+               <br />
+               <img src={image5}  alt="" />
+               <br />
+               <img src={image6}  alt="" />
+               <br />
+              
+
+
+              </Marquee>
+
+            </Row>
+            <br />
+            <br />
+            <h1 className="center">Clients Testimonials</h1>
+
+
+
 
           </div>
 
