@@ -6,7 +6,14 @@ import { Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import image1 from './tec1.png';
 import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
+// import CardGroup from 'react-bootstrap/CardGroup';
+// import '@fortawesome/fontawesome-free/css/all.css';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faCoffee} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPeopleRoof, faComputer, faTruck, faCloudArrowUp } from '@fortawesome/free-solid-svg-icons';
+
+
 
 
 
@@ -52,65 +59,47 @@ function Home() {
             <Row>
               <Col lg='3'>
                 <Card>
-                  <Card.Img variant="top" src="holder.js/100px160" />
+                  {/* <i class="bi bi-pc-display-horizontal"></i> */}
+                  {/* <FontAwesomeIcon icon={faCoffee} /> */}
+
+                  {/* <FontAwesomeIcon icon={faComputer} /> */}
+                  {/* <Card.Img variant="top" src="holder.js/100px160"/>
+                  <i class="bi bi-people"></i> */}
+                  <FontAwesomeIcon icon={faPeopleRoof} size="2x" />
+                  {/* <button type="submit" class="btn btn-primary"><span class="bi-search"></span> Search</button> */}
                   <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title><strong>Continuous Support</strong></Card.Title>
                     <Card.Text>
-                      This is a longer card with supporting text below as a natural
-                      lead-in to additional content. This content is a little bit
-                      longer.
-                      This is a longer card with supporting text below as a natural
-                      lead-in to additional content. This content is a little bit
-                      longer.
+                      We are dedicated to continuously improving our customer service standards. Through feedback mechanisms and regular evaluations, we identify areas for enhancement and implement measures to elevate the overall customer experience.                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col lg='3'>
+                <Card>
+                  <FontAwesomeIcon icon={faComputer} size="2x" />                  <Card.Body>
+                    <Card.Title><strong>Prompt Responsiveness</strong></Card.Title>
+                    <Card.Text>
+                      Our team is committed to providing prompt responses to customer inquiries, whether they relate to IT solutions or office supplies. We prioritize communication and ensure that our clients receive timely assistance whenever they reach out to us.
                     </Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
               <Col lg='3'>
                 <Card>
-                  <Card.Img variant="top" src="holder.js/100px160" />
-                  <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                  <FontAwesomeIcon icon={faTruck} size="2x" />                  <Card.Body>
+                    <Card.Title><strong>Flexible Delivery Options</strong></Card.Title>
                     <Card.Text>
-                      This is a longer card with supporting text below as a natural
-                      lead-in to additional content. This content is a little bit
-                      longer.
-                      This is a longer card with supporting text below as a natural
-                      lead-in to additional content. This content is a little bit
-                      longer.
+                      We offer flexible delivery options to accommodate our clients' preferences and requirements. Whether it's same-day delivery for urgent orders or scheduled deliveries for larger shipments, we strive to meet our clients' timelines effectively.
                     </Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
               <Col lg='3'>
                 <Card>
-                  <Card.Img variant="top" src="holder.js/100px160" />
-                  <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                  <FontAwesomeIcon icon={faCloudArrowUp} size="2x" />                  <Card.Body>
+                    <Card.Title><strong>Seamless Integration</strong></Card.Title>
                     <Card.Text>
-                      This is a longer card with supporting text below as a natural
-                      lead-in to additional content. This content is a little bit
-                      longer.
-                      This is a longer card with supporting text below as a natural
-                      lead-in to additional content. This content is a little bit
-                      longer.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col lg='3'>
-                <Card>
-                  <Card.Img variant="top" src="holder.js/100px160" />
-                  <Card.Body>
-                    <Card.Title>Card title</Card.Title>
-                    <Card.Text>
-                      This is a longer card with supporting text below as a natural
-                      lead-in to additional content. This content is a little bit
-                      longer.
-                      This is a longer card with supporting text below as a natural
-                      lead-in to additional content. This content is a little bit
-                      longer.
-                    </Card.Text>
+                      For clients seeking both IT solutions and office supplies, we offer seamless integration to streamline their procurement processes. By consolidating their purchases with us, clients benefit from greater convenience, cost savings, and efficiency.                    </Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
